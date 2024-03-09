@@ -16,7 +16,7 @@ from Lead_scoring_data_pipeline.data_validation_checks import *
 
 default_args = {
     'owner': 'airflow',
-    'start_date': datetime(2024,3,03),
+    'start_date': datetime(2024,3,3),
     'retries' : 1, 
     'retry_delay' : timedelta(seconds=5)
 }
